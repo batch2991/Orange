@@ -53,6 +53,7 @@ public class VisitStore
 			driver.switchTo().window(wnds.get(1));
 			List<WebElement> l=w1.findElements(By.tagName("h1"));
 			System.out.println(l.size());
+			System.out.println("committing............");
 			for(int i=0;i<l.size();i++)
 			{
 				Reporter.log("Title: "+l.get(i).getText()+" ");
