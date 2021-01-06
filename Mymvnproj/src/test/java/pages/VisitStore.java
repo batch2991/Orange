@@ -54,6 +54,8 @@ public class VisitStore
 			List<WebElement> l=w1.findElements(By.tagName("h1"));
 			System.out.println(l.size());
 			System.out.println("committing............");
+			
+			System.out.println("committing again............");
 			for(int i=0;i<l.size();i++)
 			{
 				Reporter.log("Title: "+l.get(i).getText()+" ");
